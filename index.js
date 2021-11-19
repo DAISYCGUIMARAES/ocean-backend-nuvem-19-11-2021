@@ -11,6 +11,10 @@ const url = "mongodb://localhost:27017";
 const dbName = "ocean_bancodados_18_11_2021";
 
 async function main() {
+
+    const url = mongodb+srv://daisyguimaraes:nano9090@cluster0.cg3ye.mongodb.net
+    const dbName = "ocean_bancodados_18_11_2021";
+
     /*const client = await MongoClient.connect(url);
 
     const db = client.db(dbName);
